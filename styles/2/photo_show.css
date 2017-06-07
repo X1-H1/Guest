@@ -1,0 +1,35 @@
+#photo{
+    width: auto;
+    /*height原本值为1000 在此处修改为自动*/
+    height: auto;
+    border:2px solid #ccc ;
+    font-size: 12px;
+}
+#photo h2{
+    text-indent: 0;
+    text-align: center;
+}
+#photo p{
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+#photo p a{
+    font-size: 14px;
+    color: #333;
+}
+#photo dl {
+    /*background-color: red;*/
+    /*为了解决图片错位问题，在这里可以设置一下dl的长和高，以及边距问题*/
+    /*但是在这里我所选用的图片大小都差不多，没有出现类似问题，所以就不改了*/
+    float: left;
+    margin:40px 34px;
+    text-align: center;
+}
+#photo dl dd{
+    padding:2px 0;
+}
+#photo dl dd a{
+    color:#333;
+    text-decoration: none;
+}

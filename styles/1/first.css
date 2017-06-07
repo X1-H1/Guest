@@ -1,0 +1,222 @@
+@charset "UTF-8";
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    width:960px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+#header{
+    width:auto;
+    height:150px;
+    border:2px solid #ccc;
+    margin: 10px 0;
+}
+
+ul{
+     list-style-type: none;
+ }
+
+#header ul{
+    /*background: #D8BFD8;*/
+    text-align: right;
+    padding: 35px 50px 0 0;
+}
+
+#header ul li{
+    display: inline;
+    /*background: green;*/
+}
+
+#header ul li a{
+    text-decoration: none;
+    color: #333;
+}
+#header ul li a.manage{
+    color: red;
+}
+
+#header ul li a:hover{
+    color: #f00;
+    text-decoration:underline;
+}
+
+#header ul li strong.noread{
+    background:url(../../images/meg.gif) no-repeat left center;
+    padding:0 0 0 15px;
+}
+
+#header ul li strong.read{
+    background:url(../../images/read.png) no-repeat left center;
+    padding:0 0 0 15px;
+}
+#header ul li.skin{
+    position: relative;
+}
+#header ul li dl#skin{
+    position: absolute;
+    /*360 的top应该设置为14px 火狐的应该设置为18px*/
+    top:18px;
+    left:-23px;
+    border:1px dashed #333;
+    width:64px;
+    background: #fff;
+    text-align: center;
+    padding:5px;
+    display: none;
+}
+#header ul li dl#skin dd{
+    padding:2px;
+}
+
+#header h1{
+    font-size: 12px;
+    width: 210px;
+    height: 30px;
+    background: #B0C4DE;
+    margin:50px 0 0 50px;
+}
+
+#header h1 a{
+    width: 210px;
+    height: 30px;
+    display: block;
+    text-indent: -9999px;
+}
+
+h2{
+    font-size: 14px;
+    background:#87CEEB;
+    height: 25px;
+    line-height: 25px;
+    text-indent: 10px;
+}
+#member {
+    width: auto;
+    height: 600px;
+    border:2px solid #ccc ;
+    font-size: 12px;
+}
+#member h2{
+    text-indent: 0;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+#member #member_sidebar{
+    width: 300px;
+    height:550px;
+    margin: 15px;
+    float: left;
+    border:1px dashed #999;
+}
+#member #member_sidebar dl{
+    width: 250px;
+    background: red;
+    margin:15px auto;
+}
+#member #member_sidebar dl dt{
+    height: 40px;
+    line-height: 40px;
+    background: #999;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+#member #member_sidebar dl dd{
+    height: 40px;
+    line-height: 40px;
+    background: #ccc;
+    font-weight: bold;
+    text-align: center;
+    /*color: #fff;*/
+}
+#member #member_sidebar dl dd a{
+    display: block;
+    color: #333;
+    text-decoration: none;
+}
+#member #member_sidebar dl dd a:hover{
+    background: #bbb;
+}
+#member #member_main{
+    width: 590px;
+    height:550px;
+    margin: 15px;
+    float: right;
+    border:1px dashed #999;
+}
+#foot{
+    clear: both;
+    width:auto;
+    height: 60px;
+    /*border:1px solid green;*/
+    text-align: center;
+    padding: 15px 0 0 0 ;
+}
+
+#foot p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding:5px 0 0 0 ;
+}
+
+#foot p span{
+    color:#009999;
+}
+
+#page_num{
+    clear: both;
+    height:20px;
+    /*background:red;*/
+    padding:20px 0;
+    position:relative;
+}
+
+#page_num ul{
+    position: absolute;
+    right: 40px;
+    height: 20px;
+    /*background:green;*/
+}
+#page_num ul li{
+    float: left;
+    width: 26px;
+    height:20px;
+}
+
+#page_num ul li a{
+    display: block;
+    width: 20px;
+    height:20px;
+    line-height: 20px;
+    border:1px solid #333;
+    text-align: center;
+    text-decoration: none;
+}
+
+#page_num ul li a:hover,#page_num ul li a.selected{
+    background: #666;
+    font-weight: bold;
+    color: #ffffff;
+}
+#page_text{
+    clear: both;
+    height:20px;
+    /*background:red;*/
+    padding:20px 0;
+}
+#page_text ul{
+    text-align: center;
+}
+#page_text ul li{
+    display: inline;
+}
+
+#page_text ul li a{
+    color:#333;
+}
